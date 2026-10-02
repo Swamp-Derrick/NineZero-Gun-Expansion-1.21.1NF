@@ -1,8 +1,6 @@
 {
-    "pack": {
-        "description": "Base resources for NineZero's Gun Expansion",
-        "pack_format": 9,
-        "forge:resource_pack_format": 9,
-        "forge:data_pack_format": 10
-    }
+  "pack": {
+    "description": "NineZero's Gun Expansion - Minecraft 1.21.1",
+    "pack_format": 34
+  }
 }

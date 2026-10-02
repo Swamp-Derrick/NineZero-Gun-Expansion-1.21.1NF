@@ -1,0 +1,17 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:nuggets/iron",
+      "count": 9
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:solid_stock"
+  },
+  "recipe_id": "nzgmaddon:solid_stock"
+}

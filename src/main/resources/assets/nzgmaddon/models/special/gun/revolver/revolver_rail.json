@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "nzgmaddon:items/heavy_pistol",
-		"particle": "cgm:items/pistol"
+		"3": "nzgmaddon:item/heavy_pistol",
+		"particle": "cgm:item/pistol"
 	},
 	"elements": [
 		{

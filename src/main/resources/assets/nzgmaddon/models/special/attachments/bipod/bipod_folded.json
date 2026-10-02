@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "nzgmaddon:items/bipod",
-		"particle": "cgm:items/assault_rifle"
+		"3": "nzgmaddon:item/bipod",
+		"particle": "cgm:item/assault_rifle"
 	},
 	"elements": [
 		{

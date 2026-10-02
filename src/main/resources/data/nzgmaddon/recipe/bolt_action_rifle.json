@@ -1,0 +1,21 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 20
+    },
+    {
+      "tag": "c:nuggets/iron",
+      "count": 1
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:bolt_action_rifle"
+  },
+  "recipe_id": "nzgmaddon:bolt_action_rifle"
+}

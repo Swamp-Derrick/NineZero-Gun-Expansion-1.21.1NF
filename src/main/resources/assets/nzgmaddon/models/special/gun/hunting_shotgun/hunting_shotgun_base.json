@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"0": "cgm:items/rifle",
-		"2": "nzgmaddon:items/pump_shotgun",
-		"3": "cgm:items/shotgun",
-		"particle": "nzgmaddon:items/pump_shotgun"
+		"0": "cgm:item/rifle",
+		"2": "nzgmaddon:item/pump_shotgun",
+		"3": "cgm:item/shotgun",
+		"particle": "nzgmaddon:item/pump_shotgun"
 	},
 	"components": [
 		{
@@ -149,7 +149,7 @@
 				"east": {"uv": [4, 1, 3.5, 1.5], "texture": "#2"},
 				"south": {"uv": [4, 1, 5, 1.5], "texture": "#2"},
 				"west": {"uv": [3.5, 1, 4, 1.5], "texture": "#2"},
-				"down": {"uv": [2, 3.5, 8, 5.5], "rotation": 270, "texture": "#missing"}
+				"down": {"uv": [2, 3.5, 8, 5.5], "rotation": 270, "texture": "#2"}
 			}
 		},
 		{

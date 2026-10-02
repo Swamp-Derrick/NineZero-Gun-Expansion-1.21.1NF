@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "cgm:effect/red_dot_reticle",
-		"3": "cgm:items/medium_scope",
-		"4": "cgm:items/long_scope",
-		"particle": "cgm:items/short_scope"
+		"3": "cgm:item/medium_scope",
+		"4": "cgm:item/long_scope",
+		"particle": "cgm:item/short_scope"
 	},
 	"elements": [
 		{

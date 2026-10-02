@@ -1,0 +1,23 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 22
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:infantry_rifle",
+    "components": {
+      "minecraft:custom_data": {
+        "BaseVariant": 1,
+        "ExtraRails": 1
+      }
+    }
+  },
+  "recipe_id": "nzgmaddon:infantry_rifle_1"
+}

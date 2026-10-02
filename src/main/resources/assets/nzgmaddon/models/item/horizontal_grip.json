@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "nzgmaddon:items/horizontal_grip",
-		"2": "cgm:items/light_grip",
-		"particle": "nzgmaddon:items/horizontal_grip"
+		"1": "nzgmaddon:item/horizontal_grip",
+		"2": "cgm:item/light_grip",
+		"particle": "nzgmaddon:item/horizontal_grip"
 	},
 	"elements": [
 		{

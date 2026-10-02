@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"1": "cgm:items/machine_pistol",
-		"2": "nzgmaddon:items/magazines_common"
+		"1": "cgm:item/machine_pistol",
+		"2": "nzgmaddon:item/magazines_common"
 	},
 	"components": [
 		{

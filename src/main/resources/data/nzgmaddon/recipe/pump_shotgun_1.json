@@ -1,0 +1,16 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 24,
+      "tag": "c:ingots/iron"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:pump_shotgun",
+    "components": {
+      "minecraft:custom_model_data": 1
+    }
+  },
+  "recipe_id": "nzgmaddon:pump_shotgun_1"
+}

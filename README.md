@@ -1,14 +1,26 @@
-# NineZero's Gun Expansion
-NineZero's Gun Expansion (NZGE) is an addon mod for MrCrayfish's Gun Mod that adds additional weapons and attachments in an aesthetically simple style. These weapons are designed and modeled to complement the weapons from the Gun Mod, featuring a greater level of model detail to make each weapon well-defined and recognizable.
+# NineZero’s Gun Expansion — Minecraft 1.21.1 / NeoForge
 
-**This is the source code for the 1.19.2 Development Branch, which will not reflect the state of the latest stable build for 1.19.2.** Source code for stable branches of the mod -- including for other versions of Minecraft Java Edition -- can be found in the branch dropdown menu.
+这是 NineZero’s Gun Expansion 的 NeoForge 移植分支，适配 **createmeow 的 CGM UnUnofficial 1.4.4**。
 
-All mod releases posted here are development or pre-release builds that are posted to solict feedback regarding upcoming changes or to hunt for bugs/issues before a major update. **For stable releases, please visit the NZGE CurseForge mod page.**
+当前版本：`1.5.0-port.1+1.21.1`（测试移植版）。包含 21 把枪、1 种弹药、19 个配件、11 个外观变体及 52 个工作台配方。
 
-### Addon Features:
-* Over a dozen new weapons to use. By default, these weapons are balanced to fit in with the default CGM weapons.
-* One ammo item: the Medium Bullet, used by several of the rifles in this addon.
-* An assortment of attachments, including barrels, stocks, sights, and one grip.
-* Crafting recipes for all items, allowing them to be used in survival mode.
+- [安装说明、移植内容与兼容边界](PORTING.md)
+- [实际测试结果及未验证事项](TEST_REPORT.md)
+- [原始更新记录](Changelog.md)
+- [GPL 许可](LICENSE)
 
-Check out the Roadmap (under the Projects tab) for a look at what I have planned or am considering for this addon!
+## 运行要求
+
+Minecraft 1.21.1、NeoForge 21.1.228+（21.1.x）、Java 21、CGM UnUnofficial 1.4.4、Framework 0.13.11 NeoForge。
+
+## 从源码构建
+
+将目标 CGM JAR 放到 `libs/cgm-1.4.4.jar`，运行：
+
+```powershell
+.\gradlew.bat build
+```
+
+产物在 `build/libs/`。运行 `scripts/test.ps1` 可执行服务器 GameTest 和独立测试世界的客户端渲染检查；测试源码不会打入成品 JAR。
+
+原作及模型/音效归 zaeonNineZero 和相应原作者所有；基础 CGM 由 MrCrayfish 开发。此分支不包含 CGM Expanded 独立引擎的专属功能，保留 NZGE 的普通 CGM 动画分支。

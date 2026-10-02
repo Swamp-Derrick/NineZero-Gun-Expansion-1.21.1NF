@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"credit": "Model by MrCrayfish (https://twitter.com/MrCraayfish) using Blockbench",
 	"textures": {
-		"3": "nzgmaddon:items/bipod"
+		"3": "nzgmaddon:item/bipod"
 	},
 	"elements": [
 		{

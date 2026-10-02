@@ -1,0 +1,17 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 12,
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:sponge"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:performance_silencer"
+  },
+  "recipe_id": "nzgmaddon:performance_silencer"
+}

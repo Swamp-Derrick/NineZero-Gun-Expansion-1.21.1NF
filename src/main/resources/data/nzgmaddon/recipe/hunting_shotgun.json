@@ -1,0 +1,17 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 19
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:hunting_shotgun"
+  },
+  "recipe_id": "nzgmaddon:hunting_shotgun"
+}

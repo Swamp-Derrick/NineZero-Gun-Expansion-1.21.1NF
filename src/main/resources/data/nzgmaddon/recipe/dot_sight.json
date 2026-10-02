@@ -1,0 +1,21 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "tag": "c:glass_panes",
+      "count": 1
+    },
+    {
+      "count": 1,
+      "tag": "c:dusts/redstone"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:dot_sight"
+  },
+  "recipe_id": "nzgmaddon:dot_sight"
+}

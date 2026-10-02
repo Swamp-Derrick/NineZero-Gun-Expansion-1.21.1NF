@@ -1,0 +1,18 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 22
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:submachine_gun",
+    "components": {
+      "minecraft:custom_data": {
+        "BaseVariant": 1
+      }
+    }
+  },
+  "recipe_id": "nzgmaddon:submachine_gun_1"
+}

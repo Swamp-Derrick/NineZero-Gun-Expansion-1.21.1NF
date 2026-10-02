@@ -2,8 +2,8 @@
 	"loader": "framework:open_model",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "nzgmaddon:items/automatic_sniper_rifle",
-		"particle": "cgm:items/weighted_stock"
+		"1": "nzgmaddon:item/automatic_sniper_rifle",
+		"particle": "cgm:item/weighted_stock"
 	},
 	"components": [
 		{

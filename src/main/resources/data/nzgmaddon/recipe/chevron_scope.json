@@ -1,0 +1,25 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 4,
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "count": 1,
+      "tag": "c:gems/amethyst"
+    },
+    {
+      "count": 2,
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "count": 1,
+      "tag": "c:dyes/black"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:chevron_scope"
+  },
+  "recipe_id": "nzgmaddon:chevron_scope"
+}

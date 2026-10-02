@@ -1,0 +1,18 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 4
+    },
+    {
+      "tag": "c:gunpowder",
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 48,
+    "id": "nzgmaddon:medium_bullet"
+  },
+  "recipe_id": "nzgmaddon:medium_bullet"
+}

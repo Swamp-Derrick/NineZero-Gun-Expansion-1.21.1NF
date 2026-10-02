@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "nzgmaddon:items/muzzle",
-		"particle": "nzgmaddon:items/muzzle"
+		"2": "nzgmaddon:item/muzzle",
+		"particle": "nzgmaddon:item/muzzle"
 	},
 	"elements": [
 		{

@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 15
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:revolver"
+  },
+  "recipe_id": "nzgmaddon:revolver"
+}

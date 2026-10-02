@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 30
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:machine_gun"
+  },
+  "recipe_id": "nzgmaddon:machine_gun"
+}

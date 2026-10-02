@@ -1,0 +1,21 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 8,
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "count": 3,
+      "tag": "c:gems/amethyst"
+    },
+    {
+      "count": 1,
+      "tag": "c:dyes/black"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:ballistic_scope"
+  },
+  "recipe_id": "nzgmaddon:ballistic_scope"
+}

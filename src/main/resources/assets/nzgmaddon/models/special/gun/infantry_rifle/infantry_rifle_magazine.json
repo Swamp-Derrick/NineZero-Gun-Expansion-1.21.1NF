@@ -3,8 +3,8 @@
 	"loader": "framework:open_model",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "nzgmaddon:items/magazines_common",
-		"particle": "cgm:items/rifle"
+		"1": "nzgmaddon:item/magazines_common",
+		"particle": "cgm:item/rifle"
 	},
 	"components": [
 		{

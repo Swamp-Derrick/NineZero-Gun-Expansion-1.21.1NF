@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "nzgmaddon:items/new_silencers",
-		"particle": "nzgmaddon:items/new_silencers"
+		"1": "nzgmaddon:item/new_silencers",
+		"particle": "nzgmaddon:item/new_silencers"
 	},
 	"elements": [
 		{

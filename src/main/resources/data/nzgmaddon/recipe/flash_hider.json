@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "tag": "c:nuggets/iron"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:flash_hider"
+  },
+  "recipe_id": "nzgmaddon:flash_hider"
+}

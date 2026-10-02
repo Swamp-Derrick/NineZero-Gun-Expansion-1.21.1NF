@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "cgm:items/rifle",
-		"1": "cgm:items/assault_rifle",
-		"3": "cgm:items/shotgun",
-		"particle": "cgm:items/shotgun"
+		"0": "cgm:item/rifle",
+		"1": "cgm:item/assault_rifle",
+		"3": "cgm:item/shotgun",
+		"particle": "cgm:item/shotgun"
 	},
 	"elements": [
 		{

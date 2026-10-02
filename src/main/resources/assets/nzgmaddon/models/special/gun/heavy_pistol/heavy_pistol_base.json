@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"1": "cgm:items/pistol",
-		"2": "nzgmaddon:items/heavy_pistol",
-		"particle": "cgm:items/pistol"
+		"1": "cgm:item/pistol",
+		"2": "nzgmaddon:item/heavy_pistol",
+		"particle": "cgm:item/pistol"
 	},
 	"components": [
 		{

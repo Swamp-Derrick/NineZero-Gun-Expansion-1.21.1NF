@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "cgm:items/basic_bullet",
-		"particle": "cgm:items/pistol"
+		"2": "cgm:item/basic_bullet",
+		"particle": "cgm:item/pistol"
 	},
 	"elements": [
 		{

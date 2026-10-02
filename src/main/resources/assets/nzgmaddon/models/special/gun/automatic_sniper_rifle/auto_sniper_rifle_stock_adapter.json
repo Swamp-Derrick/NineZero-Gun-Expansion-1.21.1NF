@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "nzgmaddon:items/submachine_gun",
-		"particle": "cgm:items/weighted_stock"
+		"2": "nzgmaddon:item/submachine_gun",
+		"particle": "cgm:item/weighted_stock"
 	},
 	"elements": [
 		{

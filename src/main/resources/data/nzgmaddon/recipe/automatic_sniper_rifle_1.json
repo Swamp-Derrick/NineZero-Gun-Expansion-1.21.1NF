@@ -1,0 +1,18 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 29
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:automatic_sniper_rifle",
+    "components": {
+      "minecraft:custom_data": {
+        "BaseVariant": 1
+      }
+    }
+  },
+  "recipe_id": "nzgmaddon:automatic_sniper_rifle_1"
+}

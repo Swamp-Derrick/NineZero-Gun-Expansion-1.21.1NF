@@ -20,3 +20,9 @@ deprecated_builds/*
 cgm-expanded-develop-1.19.2.jar
 cgm-expanded-fork-1.19.2.jar
 SourceTree.lnk
+
+# Local development files
+.reference/
+libs/*.jar
+artifacts/
+.tools/

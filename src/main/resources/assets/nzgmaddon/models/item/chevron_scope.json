@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"1": "cgm:items/long_scope",
+		"1": "cgm:item/long_scope",
 		"3": "nzgmaddon:effect/acog_reticle",
-		"particle": "cgm:items/long_scope"
+		"particle": "cgm:item/long_scope"
 	},
 	"components": [
 		{

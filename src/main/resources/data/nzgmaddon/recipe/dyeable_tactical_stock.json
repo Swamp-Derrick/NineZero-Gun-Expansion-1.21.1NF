@@ -1,0 +1,17 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "count": 8,
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:gray_wool"
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:dyeable_tactical_stock"
+  },
+  "recipe_id": "nzgmaddon:dyeable_tactical_stock"
+}

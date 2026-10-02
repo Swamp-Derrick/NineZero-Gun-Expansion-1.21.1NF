@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 17
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:heavy_pistol"
+  },
+  "recipe_id": "nzgmaddon:heavy_pistol"
+}

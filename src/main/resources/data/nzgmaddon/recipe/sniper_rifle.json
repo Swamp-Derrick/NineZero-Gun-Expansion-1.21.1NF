@@ -1,0 +1,21 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 25
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 1
+    },
+    {
+      "tag": "c:nuggets/iron",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:sniper_rifle"
+  },
+  "recipe_id": "nzgmaddon:sniper_rifle"
+}

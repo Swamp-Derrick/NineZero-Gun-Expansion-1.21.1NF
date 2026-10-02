@@ -3,7 +3,7 @@
 	"loader": "framework:open_model",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "nzgmaddon:items/lever_action_rifle"
+		"1": "nzgmaddon:item/lever_action_rifle"
 	},
 	"components": [
 		{
@@ -78,7 +78,7 @@
 			"to": [8.2485, 1.5174, 15.68969],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.825, 1.44666, 15.32508]},
 			"faces": {
-				"north": {"uv": [0, 0, 1, 1], "rotation": 180, "texture": "#missing"},
+				"north": {"uv": [0, 0, 1, 1], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [2, 10, 2.5, 10.5], "texture": "#1"},
 				"south": {"uv": [2, 10, 2.5, 10.5], "texture": "#1"},
 				"west": {"uv": [2.5, 10, 2, 10.5], "texture": "#1"}

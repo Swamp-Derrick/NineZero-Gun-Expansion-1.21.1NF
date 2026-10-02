@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 29
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:automatic_sniper_rifle"
+  },
+  "recipe_id": "nzgmaddon:automatic_sniper_rifle"
+}

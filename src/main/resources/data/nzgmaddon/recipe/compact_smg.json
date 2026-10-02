@@ -1,0 +1,13 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 22
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:compact_smg"
+  },
+  "recipe_id": "nzgmaddon:compact_smg"
+}

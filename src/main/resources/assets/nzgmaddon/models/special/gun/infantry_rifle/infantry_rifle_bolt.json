@@ -3,8 +3,8 @@
 	"loader": "framework:open_model",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "nzgmaddon:items/infantry_rifle",
-		"particle": "cgm:items/rifle"
+		"0": "nzgmaddon:item/infantry_rifle",
+		"particle": "cgm:item/rifle"
 	},
 	"components": [
 		{

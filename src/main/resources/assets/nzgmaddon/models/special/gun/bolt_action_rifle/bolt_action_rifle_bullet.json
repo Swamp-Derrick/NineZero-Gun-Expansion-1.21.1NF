@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "nzgmaddon:items/medium_bullet",
-		"particle": "nzgmaddon:items/medium_bullet"
+		"1": "nzgmaddon:item/medium_bullet",
+		"particle": "nzgmaddon:item/medium_bullet"
 	},
 	"elements": [
 		{

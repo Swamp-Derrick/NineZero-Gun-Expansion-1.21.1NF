@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"1": "nzgmaddon:items/battle_rifle",
-		"particle": "nzgmaddon:items/battle_rifle"
+		"1": "nzgmaddon:item/battle_rifle",
+		"particle": "nzgmaddon:item/battle_rifle"
 	},
 	"components": [
 		{

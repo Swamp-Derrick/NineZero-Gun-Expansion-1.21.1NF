@@ -1,0 +1,17 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 20
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:double_barreled_shotgun"
+  },
+  "recipe_id": "nzgmaddon:double_barreled_shotgun"
+}

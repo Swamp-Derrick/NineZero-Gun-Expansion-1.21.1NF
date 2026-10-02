@@ -1,0 +1,22 @@
+{
+  "type": "nzgmaddon:workbench",
+  "materials": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 25
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 5
+    }
+  ],
+  "result": {
+    "id": "nzgmaddon:heavy_assault_rifle",
+    "components": {
+      "minecraft:custom_data": {
+        "BaseVariant": 1
+      }
+    }
+  },
+  "recipe_id": "nzgmaddon:heavy_assault_rifle_1"
+}

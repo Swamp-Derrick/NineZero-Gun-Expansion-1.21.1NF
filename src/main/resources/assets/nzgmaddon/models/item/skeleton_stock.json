@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"loader": "framework:open_model",
 	"textures": {
-		"2": "cgm:items/weighted_stock",
-		"particle": "cgm:items/weighted_stock"
+		"2": "cgm:item/weighted_stock",
+		"particle": "cgm:item/weighted_stock"
 	},
 	"components": [
 		{

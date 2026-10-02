@@ -7,7 +7,7 @@ import com.mrcrayfish.guns.item.GunItem;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.block.model.ItemTransforms;
+import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
@@ -23,22 +23,22 @@ import javax.annotation.Nullable;
  */
 public class SolidStockModel implements IOverrideModel
 {
-	// The Solid Stock has multiple model states, determined by what data tag the gun has.
+    // The Solid Stock has multiple model states, determined by what data tag the gun has.
     @Override
-    public void render(float partialTicks, ItemTransforms.TransformType transformType, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource renderTypeBuffer, int light, int overlay)
+    public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource renderTypeBuffer, int light, int overlay)
     {
-    	// Set the default model for the stock.
-    	BakedModel stockModel = SpecialModels.SOLID_STOCK.getModel();
-    	if (parent!=null && parent.getItem() instanceof GunItem)
+        // Set the default model for the stock.
+        BakedModel stockModel = SpecialModels.SOLID_STOCK.getModel();
+        if (parent!=null && parent.getItem() instanceof GunItem)
         {
-	        if (parent.is(ItemTags.create(new ResourceLocation("cgm", "use_slim_stocks"))))
-	        	stockModel = SpecialModels.SOLID_STOCK_SLIM.getModel();
-	        else
-	        if (parent.is(ItemTags.create(new ResourceLocation("cgm", "use_raised_stocks"))))
-		    	stockModel = SpecialModels.SOLID_STOCK_RAISED.getModel();
-    	}
-        
+            if (parent.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath("cgm", "use_slim_stocks"))))
+                stockModel = SpecialModels.SOLID_STOCK_SLIM.getModel();
+            else
+            if (parent.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath("cgm", "use_raised_stocks"))))
+                stockModel = SpecialModels.SOLID_STOCK_RAISED.getModel();
+        }
+
         //RenderUtil.renderModel(bipodModel, transformType, null, stack, parent, poseStack, renderTypeBuffer, light, overlay);
-        Minecraft.getInstance().getItemRenderer().render(stack, ItemTransforms.TransformType.NONE, false, poseStack, renderTypeBuffer, light, overlay, GunModel.wrap(stockModel));
+        Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, renderTypeBuffer, light, overlay, GunModel.wrap(stockModel));
     }
 }

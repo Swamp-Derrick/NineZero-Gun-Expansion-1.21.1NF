@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "cgm:items/weighted_stock",
-		"particle": "cgm:items/weighted_stock"
+		"2": "cgm:item/weighted_stock",
+		"particle": "cgm:item/weighted_stock"
 	},
 	"elements": [
 		{

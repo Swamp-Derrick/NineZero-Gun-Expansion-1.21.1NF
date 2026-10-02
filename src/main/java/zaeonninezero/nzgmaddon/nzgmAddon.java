@@ -1,60 +1,20 @@
 package zaeonninezero.nzgmaddon;
 
-import zaeonninezero.nzgmaddon.init.*;
-import zaeonninezero.nzgmaddon.client.ClientHandler;
-import zaeonninezero.nzgmaddon.client.CreativeGunVariantManager;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import zaeonninezero.nzgmaddon.init.initItems;
+import zaeonninezero.nzgmaddon.init.initSounds;
+import zaeonninezero.nzgmaddon.init.ModCreativeTabs;
+import zaeonninezero.nzgmaddon.crafting.VariantWorkbenchRecipe;
 
-import net.minecraft.core.NonNullList;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
-@Mod("nzgmaddon")
+@Mod(nzgmAddon.MOD_ID)
 public class nzgmAddon {
-	public static final String MOD_ID = "nzgmaddon";
-    public static final CreativeModeTab GROUP = new CreativeModeTab(MOD_ID)
-    {
-        @Override
-        public ItemStack makeIcon()
-        {
-            ItemStack stack = new ItemStack(initItems.REVOLVER.get());
-            stack.getOrCreateTag().putInt("AmmoCount", initItems.REVOLVER.get().getGun().getGeneral().getMaxAmmo());
-            return stack;
-        }
+    public static final String MOD_ID = "nzgmaddon";
 
-        @Override
-        public void fillItemList(NonNullList<ItemStack> items)
-        {
-            super.fillItemList(items);
-            CreativeGunVariantManager.addItemVariants(items);
-        }
-    };
-	
-	public nzgmAddon() {
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		bus.addListener(this::setup);
-		
-		MinecraftForge.EVENT_BUS.register(this);
-		
-		//Registers all of the Deferred Registers from the init classes.
-		initItems.ITEMS.register(bus);
-		initSounds.SOUNDS.register(bus);
-		
-		bus.addListener(this::onClientSetup);
-	}
-	
-	//Common setup
-	private void setup(final FMLCommonSetupEvent event) {
-		System.out.println("NineZero's Gun Expansion pre-initialized.");
-	}
-	
-	//Client setup
-	private void onClientSetup(FMLClientSetupEvent event) {
-		event.enqueueWork(ClientHandler::setup);
-	}
+    public nzgmAddon(IEventBus bus) {
+        initItems.ITEMS.register(bus);
+        initSounds.SOUNDS.register(bus);
+        ModCreativeTabs.TABS.register(bus);
+        VariantWorkbenchRecipe.SERIALIZERS.register(bus);
+    }
 }

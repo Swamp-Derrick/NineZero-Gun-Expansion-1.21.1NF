@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "nzgmaddon:items/compact_smg",
-		"particle": "nzgmaddon:items/compact_smg"
+		"1": "nzgmaddon:item/compact_smg",
+		"particle": "nzgmaddon:item/compact_smg"
 	},
 	"elements": [
 		{
