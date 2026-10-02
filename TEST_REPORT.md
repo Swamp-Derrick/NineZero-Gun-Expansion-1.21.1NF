@@ -1,6 +1,8 @@
-# 基础测试报告
+# NZGE-Unofficial 基础测试报告
 
 测试日期：2026-10-02（Australia/Sydney）。环境：Windows 11、Microsoft OpenJDK 21.0.10、Minecraft 1.21.1、NeoForge 21.1.228、CGM 1.4.4、Framework 0.13.11。
+
+0.1.1 更名发布时重新运行构建及五组服务器 GameTest，全部通过。以下客户端与视觉检查来自前一版相同功能代码；本次只调整名称、版本和文档。
 
 ## 已通过
 

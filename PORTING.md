@@ -1,4 +1,4 @@
-# NineZero's Gun Expansion — 1.21.1 NeoForge 移植
+# NZGE-Unofficial — 1.21.1 NeoForge 移植
 
 本项目以 NineZero 的 1.19.2 开发分支为基础，适配 createmeow 的 CGM 1.21.1 NeoForge 分支。保留 `nzgmaddon` 命名空间、21 把枪、1 种弹药、19 个配件、11 个创意栏外观变体及 52 个工作台配方。
 
@@ -6,13 +6,13 @@
 
 使用 Minecraft **1.21.1**、**NeoForge 21.1.228 或更高的 21.1.x**、Java **21**。将以下三个 JAR 放入同一个实例的 `mods` 文件夹，客户端和服务端均需安装：
 
-- `nzgExpansion-neoforge-1.5.0-port.1+1.21.1.jar`
+- `NZGE-Unofficial-0.1.1.jar`
 - 用户提供的 `cgm-1.4.4.jar`，即 createmeow 的非官方版本
 - Framework **0.13.11 / Minecraft 1.21.1 / NeoForge**，构建依赖固定为 CurseForge 文件 `7530361`
 
 完整依赖包内已提供这三个文件。已有相同版本依赖时保留一份即可。不要同时加载原来的 Forge 1.19.2 NZGE JAR，也不要混用 Forge 版或其他 Minecraft 版本的 Framework。
 
-进入创意模式，打开 **NineZero's Gun Expansion** 标签页；生存模式通过 CGM 的武器工作台制作。首次试用建议新建测试世界。这里未向任何现有游戏实例或存档安装文件。
+进入创意模式，打开 **NZGE-Unofficial** 标签页；生存模式通过 CGM 的武器工作台制作。首次试用建议新建测试世界。这里未向任何现有游戏实例或存档安装文件。
 
 ## 本次移植内容
 
@@ -29,7 +29,7 @@
 
 目标是用户指定的 **CGM UnUnofficial 1.4.4**。原仓库还包含另一套 **CGM Expanded** 的专属接口和 `NZGE_Expanded` 数据包；目标 CGM 并未提供这套动画引擎。本次使用作者的普通 CGM 动画分支，不提供 Expanded 专属逐部件换弹、可换弹匣和其额外机制。`NZGE_Expanded` 文件夹保留作原始参考，不打入发布 JAR。
 
-这是 `port.1` 测试移植版。自动测试已覆盖启动、数据、配方序列化、开火、装填和基础渲染；尚未逐项人工验证多人联机、所有瞄准镜视野、染色/附魔交互、长时间游玩和与其他模组共存。完整证据见 [TEST_REPORT.md](TEST_REPORT.md)。
+当前版本为 `0.1.1`。自动测试已覆盖启动、数据、配方序列化、开火、装填和基础渲染；尚未逐项人工验证多人联机、所有瞄准镜视野、染色/附魔交互、长时间游玩和与其他模组共存。完整证据见 [TEST_REPORT.md](TEST_REPORT.md)。
 
 ## 构建与复测
 

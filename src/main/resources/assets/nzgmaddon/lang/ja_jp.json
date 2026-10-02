@@ -1,6 +1,6 @@
 {
-	"itemGroup.nzgmaddon": "NineZero's Gun Expansion",
-	
+	"itemGroup.nzgmaddon": "NZGE-Unofficial",
+
 	"item.nzgmaddon.automatic_shotgun": "オートマチックショットガン",
     "item.nzgmaddon.automatic_sniper_rifle": "自動狙撃銃",
 	"item.nzgmaddon.battle_rifle": "バトルライフル",
@@ -17,41 +17,41 @@
 	"item.nzgmaddon.revolver": "リボルバー",
 	"item.nzgmaddon.sniper_rifle": "スナイパーライフル",
 	"item.nzgmaddon.submachine_gun": "サブマシンガン",
-	
+
 	"item.nzgmaddon.medium_bullet": "ミディアムバレット",
-	
+
 	"item.nzgmaddon.extended_barrel": "拡張バレル",
 	"item.nzgmaddon.flash_hider": "フラッシュハイダー",
 	"item.nzgmaddon.muzzle_brake": "マズルブレーキ",
-	
+
 	"item.nzgmaddon.ballistic_scope": "バリスティックスコープ",
     "item.nzgmaddon.chevron_scope": "シェブロンスコープ",
 	"item.nzgmaddon.dot_sight": "ドットサイト",
-	
+
 	"item.nzgmaddon.carbine_stock": "カービンストック",
 	"item.nzgmaddon.dyeable_tactical_stock": "タクティカルストック",
 	"item.nzgmaddon.marksman_stock": "マークスマンストック",
 	"item.nzgmaddon.short_stock": "ショートストック",
 	"item.nzgmaddon.solid_stock": "ソリッドストック",
 	"item.nzgmaddon.stabilizing_stock": "スタビライズストック",
-	
+
 	"item.nzgmaddon.horizontal_grip": "水平グリップ",
-	
-	
+
+
 	"machine_translation_note": "The following lines use machine translation, which may be inaccurate",
-	
+
 	"item.nzgmaddon.bullpup_rifle": "ブルパップライフル",
 	"item.nzgmaddon.compact_smg": "コンパクトサブマシンガン",
 	"item.nzgmaddon.heavy_pistol": "ヘビーピストル",
 	"item.nzgmaddon.heavy_revolver": "ヘビー・リボルバー",
 	"item.nzgmaddon.lever_action_rifle": "レバーアクション式ライフル",
-	
+
 	"item.nzgmaddon.compensator_muzzle": "コンペンセイターマズル",
 	"item.nzgmaddon.improved_silencer": "改良型サイレンサー",
 	"item.nzgmaddon.performance_silencer": "パフォーマンスサイレンサー",
-	
+
 	"item.nzgmaddon.folding_stock": "折りたたみ式ストック",
 	"item.nzgmaddon.skeleton_stock": "スケルトンストック",
-	
+
 	"item.nzgmaddon.bipod": "バイポッド"
 }

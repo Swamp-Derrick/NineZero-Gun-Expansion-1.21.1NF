@@ -4,11 +4,11 @@ license="GPL-3.0-only"
 [[mods]]
 modId="nzgmaddon"
 version="${version}"
-displayName="NineZero's Gun Expansion: NeoForge Port"
+displayName="NZGE-Unofficial"
 displayURL="https://github.com/Swamp-Derrick/NineZero-Gun-Expansion-1.21.1NF"
 logoFile="nzgexpansion_banner.png"
 authors="zaeonNineZero; NeoForge port: Swamp-Derrick"
-description='''Additional weapons, attachments and model variants for createmeow's Minecraft 1.21.1 port of MrCrayfish's Gun Mod.'''
+description='''An unofficial NeoForge port of NineZero's Gun Expansion, adding weapons, attachments and model variants for createmeow's Minecraft 1.21.1 port of MrCrayfish's Gun Mod.'''
 [[dependencies.nzgmaddon]]
 modId="neoforge"
 type="required"
